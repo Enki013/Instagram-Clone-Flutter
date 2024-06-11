@@ -6,7 +6,7 @@ class PostWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 10, // Daha fazla post için itemCount artırıldı
+      itemCount: 10,
       itemBuilder: (context, index) {
         return Card(
           child: Column(
