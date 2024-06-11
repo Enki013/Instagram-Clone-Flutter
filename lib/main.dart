@@ -5,7 +5,7 @@ import 'screens/create_post_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/profile_screen.dart';
-import 'screens/search_screen.dart'; // New import
+import 'screens/search_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const ProfileScreen(),
         '/create_post': (context) => CreatePostScreen(),
         '/chat': (context) => const ChatScreen(),
-        '/search': (context) => const SearchScreen(), // New route
+        '/search': (context) => const SearchScreen(),
       },
     );
   }
